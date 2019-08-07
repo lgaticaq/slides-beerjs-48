@@ -1,0 +1,29 @@
+{
+  "name": "slides-01-semver",
+  "version": "1.0.0",
+  "description": "Buenas practicas en versionamiento usando SemVer, CHANGELOG y GIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run open && npm run watch",
+    "open": "opn docs/index.html",
+    "watch": "cleaver watch index.md --output docs/index.html",
+    "build": "cleaver index.md --output docs/index.html",
+    "test": "echo \"No se como testear esto\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/eclass/slides-01-semver.git"
+  },
+  "keywords": [],
+  "author": "Leonardo Gatica <lgatica@protonmail.com> (https://about.me/lgatica)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/eclass/slides-01-semver/issues"
+  },
+  "homepage": "https://gitlab.com/eclass/slides-01-semver#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "cleaver": "0.8.7",
+    "opn-cli": "3.1.0"
+  }
+}
